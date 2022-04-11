@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify Clone</title>
+    <!-- BROWSER ICON -->
+    <link rel="icon" href="./img/icons/logo/favicon.png">
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- APPLICATION -->
+    <main class="app">
+      <!-- MAIN WINDOW -->
+      <section class="main-window">
+        <!-- NAVBAR LEFT -->
+        <aside class="navbar-left">
+          <div class="navbar-left-menu">
+            <a href="#">
+              <img class="navbar-logo desktop" src="./img/icons/logo/logo.svg" alt="">
+            </a>
+            <a href="#">
+              <img class="navbar-logo mobile" src="./img/icons/logo/logo-small.svg" alt="">
+            </a>
+            <ul class="v-list nav">
+              <li class="active">
+                <a href="#">
+                  <img src="./img/icons/left-nav/home.svg" alt="">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/icons/left-nav/search.svg" alt="">
+                  <span>Cerca</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/icons/left-nav/libreria.svg" alt="">
+                  <span>La tua libreria</span>
+                </a>
+              </li>
+            </ul>
+            <h5>Playlist</h5>
+            <ul class="v-list playlist">
+              <li>
+                <i class="fas fa-plus"></i>
+                <a href="#">
+                  Crea Playlist
+                </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+              <li>
+                <a href="#"> Nome Playlist </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-left-user">
+            <div class="install">
+              <a href="#">
+                <i class="far fa-arrow-alt-circle-down"></i>
+                <span>Installa app</span>
+              </a>
+            </div>
+            <div class="user">
+              <a class="vertical-center" href="#">
+                <img src="./img/icons/left-nav/profile.png" alt="">
+                <h6>John Wick</h6>
+              </a>
+            </div>
+          </div>
+        </aside>
+        <!-- SCROLLABLE WINDOW -->
+        <div class="scrollable-container">
+          <div class="scrollable-header">
+            <a href="#" class="btn btn-outline">EFFETTUA L'UPGRADE</a>
+          </div>
+          <!-- SCROLLABLE CONTENT -->
+          <div class="scrollable-content">
+            <nav class="music-navbar">
+              <ul class="h-list center">
+                <li>
+                  <a class="active" href="#">IN EVIDENZA</a>
+                </li>
+                <li>
+                  <a href="#">PODCAST</a>
+                </li>
+                <li>
+                  <a href="#">CLASSIFICHE</a>
+                </li>
+                <li>
+                  <a href="#">GENERI E MOOD</a>
+                </li>
+                <li>
+                  <a href="#">NUOVE USCITE</a>
+                </li>
+                <li>
+                  <a href="#">SCOPRI</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="albums-container">
+              <h2 id="new-title">Ascoltate recentemente</h2>
+              <div class="albums-row">
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/disney.png" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Disney Italia</h4>
+                  <p>A tutti gli amanti delle canzoni Disney</p>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/workout.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Workout Motivation</h4>
+                  <p>My playlist for working out</p>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/caffe.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Il caffé del buongiorno</h4>
+                  <p>Inizia la giornata con la musica giusta.</p>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/happy.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Happy Hits!</h4>
+                  <p>Hits to boost your mood and fill you with happiness!</p>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/dragons.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>This Is Imagine Dragons</h4>
+                  <p>Stay on top of the world with the Firebreathers and rock on.</p>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/stranger.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Stranger Things</h4>
+                  <p>Never Ending Story</p>
+                </div>
+              </div>
+            </div>
+            <div class="albums-container">
+              <h2>Creato per Jhon Wick</h2>
+              <p>Piú ascolti, piú accurati saranno i suggerimenti</p>
+              <div class="albums-row">
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/mixdaily.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Dayli Mix 1</h4>
+                </div>
+                <div class="albums-item txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/radar.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Release Radar</h4>
+                </div>
+              </div>
+            </div>
+            <div class="albums-container">
+              <h2>Artisti piú popolari</h2>
+              <p>Piú ascolti, piú accurati saranno i suggerimenti</p>
+              <div class="albums-row">
+                <div class="albums-item rounded txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/ariana.jpg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Ariana Grande</h4>
+                </div>
+                <div class="albums-item rounded txt-center">
+                  <div class="img-album">
+                    <img class="img-responsive" src="./img/albums/camila.jpeg" alt="">
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <h4>Camila Cabello</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- PLAYER -->
+      <footer class="player">
+        <!-- PLAYER SONG -->
+        <div class="player-song">
+          <div class="song-info">
+            <img class="img-responsive" src="./img/player/song.jpeg" alt="Posso Farcela - Alex Baroni">
+            <div class="img-show">
+              <img class="img-responsive" src="./img/player/song.jpeg" alt="Posso Farcela - Alex Baroni">
+              <div class="song-txt-show">
+                <h4><a href="#">Posso Farcela</a></h4>
+                <span><a href="">Alex Baroni</a></span>
+              </div>
+            </div>
+            <div class="song-txt">
+              <h4><a href="#">Posso Farcela</a></h4>
+              <span><a href="">Alex Baroni</a></span>
+            </div>
+          </div>
+          <div class="options">
+            <ul class="h-list">
+              <li>
+                <a href="#">
+                  <i class="far fa-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-folder"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- PLAYER CONTROLS -->
+        <div class="player-controls">
+          <div class="player-controls-btns">
+            <ul class="h-list">
+              <li>
+                <a href="#">
+                  <i class="fas fa-random"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-step-backward"></i>
+                </a>
+              </li>
+              <li>
+                <a class="play-pause" href="#">
+                  <i class="far fa-play-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-step-forward"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-redo"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="player-controls-time">
+            <span>1:04</span>
+            <div class="music-bar"></div>
+            <span>3:13</span>
+          </div>
+        </div>
+        <!-- PLAYER VOLUME -->
+        <div class="player-volume">
+          <ul class="h-list">
+            <li>
+              <a href="#">
+                <i class="fas fa-list"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-desktop"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-volume-up"></i>
+              </a>
+            </li>
+            <div class="volume-bar"></div>
+          </ul>
+        </div>
+      </footer>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="./js/rules.js"></script>
+  </body>
+</html>
